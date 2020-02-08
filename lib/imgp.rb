@@ -1,25 +1,47 @@
 # Language: Ruby, Level: Level 3
 require 'image'
 class Imgproc
- 
 
-  def bgr_to_grayscale(img)
-    
+
+  def self.bgr_to_grayscale(img)
+
   end
 
-  def bgr_to_hsv(img)
-    
+  def self.bgr_to_hsv(img)
+
   end
 
-  def bgr_to_hsv_util(array)
-    
+  def self.bgr_to_hsv_util(array)
+
   end
-  
-  
-  
-  
 
+  def self.blur(img, blurtype)
 
+  end
+
+  def self.dilate(img)
+
+  end
+
+  def self.erode(img)
+
+  end
+
+  def self.scale(img)
+
+  end
+
+  def self.rotate(img)
+
+  end
+
+  def self.kernel_transform(img, kernel)
+
+  end
+
+  def self.alpha_removal(img)
+
+  end
 
 
 end

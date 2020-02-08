@@ -3,10 +3,7 @@
 # contains the definition of image class
 require 'bmp'
 class Image
-  attr_reader :data
-  attr_reader :height
-  attr_reader :width
-  attr_reader :channels
+  attr_reader :data, :height, :width, :channels
   def initialize()
     @data = []
     @height = 0
@@ -18,7 +15,7 @@ class Image
 
   end
 
-  def write(path, name, format)
+  def write(path)
   end
 
 
